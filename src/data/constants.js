@@ -11,7 +11,7 @@ export const Bio = {
   github: "https://github.com/JiyaGupta-cs",
   resume:
     "https://drive.google.com/file/d/1sa50A2m9muL3AEcxuWpPYZRkBlCYyTZF/view?usp=sharing",
-  linkedin: "linkedin.com/in/jiya-gupta-engineeringstudent/",
+  linkedin: "https://www.linkedin.com/in/jiya-gupta-engineeringstudent/",
   twitter: "https://twitter.com/JiyaGupta_dev",
   mail: "mailto:coderaholic21@gmail.com",
   github: "https://github.com/JiyaGupta-cs",
