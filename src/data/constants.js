@@ -76,7 +76,7 @@ export const experiences = [
     company: "A month-long Open-Source Contest",
     date: "October 2023",
     desc: "Winner of HackSquad among 2000+ teams. Submitted impactful Pull Requests to diverse     GitHub projects, showcasing proficiency in collaborative coding and issue resolution.",
-    doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Screenshot%20from%202024-01-25%2022-38-31.png?alt=media&token=2785903f-1a4e-41f5-afd2-6adcfe56d058",
+    doc: "https://media.licdn.com/dms/image/D4D2DAQEym6tjQ1QKrQ/profile-treasury-image-shrink_160_160/0/1700906426823?e=1708974000&v=beta&t=EiMJxT9Pc0-m3SicKiImOgzaISc8FSaa5KKZuXqnzkw",
   },
   {
     id: 1,
@@ -84,8 +84,7 @@ export const experiences = [
     role: "FormTribe Hackathon",
     company: "Formbricks",
     date: "October 2023",
-    desc: "Contributed to Formbricks, a real-world product, addressing and resolving issues in a live Github environment. Contributed to the enhancement of multiple open-source projects.",    
-    doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1696514649120.jpeg?alt=media&token=e7f6757b-edfa-4138-a692-d6709eeef3e2",
+    desc: "Contributed to Formbricks, a real-world product, addressing and resolving issues in a live Github environment. Contributed to the enhancement of multiple open-source projects.", 
   },
   {
     id: 2,
@@ -94,7 +93,6 @@ export const experiences = [
     company: "Innogeeks",
     date: "January-February 2024",
     desc: "Secured 3rd position among 500+ registrations. Demonstrated collaborative coding    expertise through impactful contributions to GitHub projects.",    
-    doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/WhatsApp%20Image%202023-05-05%20at%2012.07.39%20AM.jpeg?alt=media&token=9f0e1648-568b-422d-bd0b-1f125f722245",
   },
   {
     id: 3,
@@ -103,7 +101,6 @@ export const experiences = [
     company: "JGEC",
     date: "January-February 2024",
     desc: "Advanced from a mentee role to that of a mentor, actively participated in the review and merging of PRs, contributing significantly to the growth and development of the projects.",
-    doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/1691181448873.jpeg?alt=media&token=ee85eb8f-7247-43cd-9a1d-ce9f58ea62a6",
   },
 ];
 
