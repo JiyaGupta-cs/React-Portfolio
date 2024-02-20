@@ -101,6 +101,7 @@ export const Img = styled.img`
   height: 100%;
   max-width: 700px;
   border-radius: 50%;
+  filter: drop-shadow(9px -18px 13px white);
 
   @media (max-width: 768px) {
     max-width: 400px;
