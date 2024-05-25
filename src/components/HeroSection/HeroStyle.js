@@ -99,7 +99,8 @@ export const Img = styled.img`
   position: relative;
   width: 100%;
   height: 100%;
-  max-width: 700px;
+  max-width: 500px;
+  max-height: 500px;
   border-radius: 50%;
   filter: drop-shadow(9px -18px 13px white);
 
@@ -109,8 +110,8 @@ export const Img = styled.img`
   }
 
   @media (max-width: 640px) {
-    max-width: 350px;
-    max-height: 280px;
+    max-width: 60vw;
+    max-height: 60vw;
   }
 `;
 
