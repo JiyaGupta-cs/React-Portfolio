@@ -1,5 +1,8 @@
 import ShopNexImg from '../images/shopnex.png';
 import CapabilixImg from '../images/capabilix.png';
+import NietImg from '../images/Niet.png';
+import TechnoVerseImg from '../images/TechnoVerse.png';
+import HackersImg from '../images/Hackers.png';
 export const Bio = {
   name: "Jiya Gupta",
   roles: [
@@ -10,7 +13,7 @@ export const Bio = {
     "I am an Open Source Enthusiast and Agile Learner, always eager to take on new challenges. Passionate about contributing to innovative collaborative projects, I actively engage in the open-source community. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/JiyaGupta-cs",
   resume:
-    "https://drive.google.com/file/d/1sa50A2m9muL3AEcxuWpPYZRkBlCYyTZF/view?usp=sharing",
+    "https://drive.google.com/file/d/1Haq9jz5EvhgjDTRhVdi0towSRWdcG39C/view",
   linkedin: "https://www.linkedin.com/in/jiya-gupta-engineeringstudent/",
   twitter: "https://twitter.com/JiyaGupta_dev",
   mail: "mailto:coderaholic21@gmail.com",
@@ -135,8 +138,63 @@ export const education = [
 ];
 
 export const projects = [
-   {
+  {
     id: 0,
+    title: "NIET Education",
+    description:
+      "An interactive student LMS offering lectures and exams to enhance learning.",
+    image: NietImg,
+    tags: ["WORDPRESS", "WOO-COMMERCE"],
+    category: "web app",
+    webapp: "https://nieteducation.co.in/",
+    member: [
+      {
+        name: "Jiya Gupta",
+        img: "https://avatars.githubusercontent.com/u/140608790?v=4",
+        linkedin: Bio.linkedin,
+        github: Bio.github,
+      },
+    ],
+  },{
+    id: 1,
+    title: "TechnoVerse",
+    description:
+      "Designed and Developed the Frontend of the Website for the college club.",
+    image: TechnoVerseImg,
+    tags: ["React Js"],
+    category: "web app",
+    github: "https://github.com/JiyaGupta-cs/technoverse-frontend",
+    webapp: "https://technoverse-kiet.vercel.app/",
+    member: [
+      {
+        name: "Jiya Gupta",
+        img: "https://avatars.githubusercontent.com/u/140608790?v=4",
+        linkedin: Bio.linkedin,
+        github: Bio.github,
+      },
+    ],
+  },
+  {
+    id: 2,
+    title: "Hackers MeetUp",
+    description:
+      "Designed and Developed the Frontend of the Website for the college club, Technocrats.",
+    image: HackersImg,
+    tags: ["React Js"],
+    category: "web app",
+    github: "https://github.com/JiyaGupta-cs/hackers",
+    webapp: "https://thm-kiet.tech/",
+    member: [
+      {
+        name: "Jiya Gupta",
+        img: "https://avatars.githubusercontent.com/u/140608790?v=4",
+        linkedin: Bio.linkedin,
+        github: Bio.github,
+      },
+    ],
+  },
+   {
+    id: 3,
     title: "Capabilix",
     description:
       "It is a social media platform with a focus on fostering a supportive community for disabled individuals that can provide a space to share their experiences, support one another, promote events, grab a job, and become self-dependent.",
@@ -155,7 +213,7 @@ export const projects = [
     ],
   },
   {
-    id: 1,
+    id: 4,
     title: "ShopNex",
     description:
       "Shopnex is your one-stop destination for fashionable clothing for the entire family. Discover a wide selection of men's, women's, and kids' apparel, ensuring that everyone can find the perfect style and fit. Shop with confidence and convenience at Shopnex for all your clothing needs.",
