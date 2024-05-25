@@ -71,7 +71,7 @@ export const skills = [
   }
 ];
 
-export const experiences = [
+export const achievements = [
   {
     id: 0,
     img: "https://www.hacksquad.dev/favicon/favicon-256x256.png",
@@ -79,7 +79,7 @@ export const experiences = [
     company: "A month-long Open-Source Contest",
     date: "October 2023",
     desc: "Winner of HackSquad among 2000+ teams. Submitted impactful Pull Requests to diverse     GitHub projects, showcasing proficiency in collaborative coding and issue resolution.",
-    doc: "https://media.licdn.com/dms/image/D4D2DAQEym6tjQ1QKrQ/profile-treasury-image-shrink_160_160/0/1700906426823?e=1708974000&v=beta&t=EiMJxT9Pc0-m3SicKiImOgzaISc8FSaa5KKZuXqnzkw",
+    doc: "https://media.licdn.com/dms/image/D5622AQFA6WryZhQo5Q/feedshare-shrink_800/0/1706387125513?e=1719446400&v=beta&t=oTonUIEwUKims0GVSB72hq5T9f8yefDC5Un-TfHwxV8",
   },
   {
     id: 1,
@@ -91,19 +91,56 @@ export const experiences = [
   },
   {
     id: 2,
-    img: "https://iwoc.codes/public/img/iwoc_logo.png",
+    img: "https://avatars.githubusercontent.com/u/86524452?s=280&v=4",
     role: "IWOC 2024",
     company: "Innogeeks",
     date: "January-February 2024",
-    desc: "Secured 3rd position among 500+ registrations. Demonstrated collaborative coding    expertise through impactful contributions to GitHub projects.",    
+    desc: "Secured 3rd position among 500+ registrations. Demonstrated collaborative coding    expertise through impactful contributions to GitHub projects.",  
+    doc:"https://media.licdn.com/dms/image/D4E22AQFMLO4hMSFkqQ/feedshare-shrink_2048_1536/0/1708527007474?e=1719446400&v=beta&t=dBQbt7OCknJ14v98h6B2ENZ83I9fJelnPiJ0xRyrDCY"  
+  },{
+    id: 3,
+    img: "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/662517c31ab3c_bvp-logo.png?d=200x200",
+    role: "Mind Maelstrom",
+    company: "BVCOE, Delhi",
+    date: "May 2024",
+    desc: "First Runner Up at the  Mind Maelstrom hackathon held at Bharati Vidyapeeth's College of Engineering , New Delhi !",  
+    doc:"https://media.licdn.com/dms/image/D5622AQHREjy6Wc4j4g/feedshare-shrink_800/0/1714591275968?e=1719446400&v=beta&t=V8N9IrdwBnmg0YIftJyXBypfkvPJaoVSJX93lUu3iKc"  
+  },
+ 
+];
+export const experiences = [
+  {
+    id: 1,
+    img: "https://media.licdn.com/dms/image/D4D0BAQGzilk4OEMYcw/company-logo_200_200/0/1689784462276?e=2147483647&v=beta&t=3E2BFser0v78heM-e-ZCV74slr-6EDqrutD7mOFJxGg",
+    role: "Web Coordiantor",
+    company: "TechnoCrats",
+    date: "April 2024 - Till Date",
+    desc: ""
+  },
+  {
+    id: 2,
+    img: "https://fosscu.org/fosscu.png",
+    role: "Member",
+    company: "FOSSCU",
+    date: "January 2024 - Till Date",
   },
   {
     id: 3,
     img: "https://www.jwoc.tech/_next/static/media/jwoc-2024.652c49b8.svg",
-    role: "JWOC 2024",
+    role: "Mentor @ JWOC 2024",
     company: "JGEC",
     date: "January-February 2024",
     desc: "Advanced from a mentee role to that of a mentor, actively participated in the review and merging of PRs, contributing significantly to the growth and development of the projects.",
+    doc:"https://media.licdn.com/dms/image/D5622AQGgIBNDEYP7LQ/feedshare-shrink_800/0/1708345898031?e=1719446400&v=beta&t=P--5vOJ006fcksgdd_I70KnRZGcg6ueHj71B2OKbUMw"
+  },
+  {
+    id: 4,
+    img: "https://user-images.githubusercontent.com/63473496/153487849-4f094c16-d21c-463e-9971-98a8af7ba372.png",
+    role: "Project Admin & Mentor @ GSSOC 2024",
+    company: "GirlScript Summer of Code",
+    date: "May-August 2024",
+    desc: "Advanced from a mentee role to that of a mentor, actively participated in the review and merging of PRs, contributing significantly to the growth and development of the projects.",
+    doc:"https://media.licdn.com/dms/image/D5622AQEL38APNHihTg/feedshare-shrink_1280/0/1715538504824?e=1719446400&v=beta&t=a220rrH8UOgTPuB-Q6NyrlYCUYFd5wBL5icu_pDbc-4",
   },
 ];
 

@@ -11,6 +11,7 @@ import Projects from "./components/Projects";
 
 import Footer from "./components/Footer";
 import Experience from "./components/Experience";
+import Achivements from "./components/Achievements";
 import Education from "./components/Education";
 import ProjectDetails from "./components/ProjectDetails";
 import styled from "styled-components";
@@ -39,6 +40,7 @@ function App() {
           <HeroSection />
           <Wrapper>
             <Skills />
+            <Achivements />
             <Experience />
           </Wrapper>
           <Projects openModal={openModal} setOpenModal={setOpenModal} />
