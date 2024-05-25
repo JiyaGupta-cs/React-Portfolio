@@ -179,7 +179,7 @@ export const projects = [
     id: 0,
     title: "NIET Education",
     description:
-      "An interactive student LMS offering lectures and exams to enhance learning.",
+      "Freelancing Project - An interactive student LMS offering lectures and exams to enhance learning.",
     image: NietImg,
     tags: ["WORDPRESS", "WOO-COMMERCE"],
     category: "web app",
