@@ -88,7 +88,7 @@ const SkillList = styled.div`
   display: flex;
   justify-content: center; 
   flex-wrap: wrap;
-  gap: 45px;
+  gap: 10px;
   margin-bottom: 20px;
   margin-top: 20px;
   @media (max-width: 768px) {    
@@ -100,16 +100,16 @@ const SkillList = styled.div`
 `
 
 const SkillItem = styled.div`
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
   color: ${({ theme }) => theme.text_primary + 80};
   border: 1px solid ${({ theme }) => theme.text_primary + 80};
   border-radius: 12px;
-  padding: 20px 45px;
+  padding: 10px 25px;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 10px;
   @media (max-width: 768px) {
     font-size: 14px;
     padding: 8px 12px;
@@ -123,6 +123,7 @@ const SkillItem = styled.div`
 const SkillImage = styled.img`
   width: 40px;
   height: 40px;
+  border-radius:2px;
   @media (max-width: 768px) {
     width: 30px;
   height: 30px;
