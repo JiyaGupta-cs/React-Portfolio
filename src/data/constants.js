@@ -20,7 +20,7 @@ export const Bio = {
     "I am an Open Source Enthusiast and Agile Learner, always eager to take on new challenges. Passionate about contributing to innovative collaborative projects, I actively engage in the open-source community. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/JiyaGupta-cs",
   resume:
-    "https://drive.google.com/file/d/1Haq9jz5EvhgjDTRhVdi0towSRWdcG39C/view",
+    "https://docs.google.com/document/d/1TizXUemHx2LEqUKb_k5oVLSUrBEdgE-vUQFaIDRHxdo/edit?usp=sharing",
   linkedin: "https://www.linkedin.com/in/jiya-gupta-engineeringstudent/",
   twitter: "https://twitter.com/JiyaGupta_dev",
   mail: "mailto:coderaholic21@gmail.com",
