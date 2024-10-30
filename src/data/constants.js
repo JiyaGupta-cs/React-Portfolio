@@ -116,20 +116,30 @@ export const achievements = [
  
 ];
 export const experiences = [
+  
   {
     id: 1,
-    img: "https://media.licdn.com/dms/image/D4D0BAQGzilk4OEMYcw/company-logo_200_200/0/1689784462276?e=2147483647&v=beta&t=3E2BFser0v78heM-e-ZCV74slr-6EDqrutD7mOFJxGg",
-    role: "Web Coordiantor",
-    company: "TechnoCrats",
-    date: "April 2024 - Till Date",
-    desc: ""
-  },
-  {
-    id: 2,
     img: "https://fosscu.org/fosscu.png",
     role: "Member",
     company: "FOSSCU",
-    date: "January 2024 - Till Date",
+    date: "December 2023 - Till Date",
+    desc:"An active memberoftheFOSSCUcontributing to the community. Maintaining FOSSCU’s website. Hosting events like Say Hello to Linux, Getting Started With Git, etc. indulging the mass college students into the world of open-source."
+  },
+  {
+    id: 2,
+    img: "https://pbs.twimg.com/profile_images/1734099293676396544/jIdC7NYM_400x400.jpg",
+    role: "Advocate Evangelist",
+    company: "HackQuest",
+    date: "October 2024 - Till Date",
+    desc: "As anEvangelist, have the opportunity to engage deeply with the community, contribute to various impactful projects and represent HackQuest and host events"
+  },
+  {
+    id: 2,
+    img: "https://media.licdn.com/dms/image/v2/D560BAQFTtgzsLFghyg/company-logo_200_200/company-logo_200_200/0/1710072178034/innogeeks_logo?e=2147483647&v=beta&t=A3a8vdOMPNBggGKoEazgbHbCohEF73BuPwlR-TYfW90",
+    role: "Coordinator",
+    company: "Innogeeks",
+    date: "September 2024 - Till Date",
+    desc: ""
   },
   {
     id: 3,
