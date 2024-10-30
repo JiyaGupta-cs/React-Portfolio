@@ -1,8 +1,15 @@
 import ShopNexImg from '../images/shopnex.png';
-import CapabilixImg from '../images/capabilix.png';
 import NietImg from '../images/Niet.png';
 import TechnoVerseImg from '../images/TechnoVerse.png';
 import HackersImg from '../images/Hackers.png';
+
+
+import Flare from '../images/flare.jpg';
+import DigiDukaan from '../images/digidukaan.png';
+import Discord_bot from '../images/discord_bot.jpg';
+import Cord from '../images/cord.png';
+import ReactFireUtils from '../images/react-fire-utils.png';
+
 export const Bio = {
   name: "Jiya Gupta",
   roles: [
@@ -175,8 +182,75 @@ export const education = [
 ];
 
 export const projects = [
+ 
+  
   {
-    id: 0,
+    id: 1,
+    title: "CORD",
+    description:
+      "CORD is a governmental global public utility and trust framework designed to address trust gaps, manage transactions, and facilitate the exchange of value at scale. Wrote comprehensive tests in Rust to ensure system reliability and validate the core functionalities, ensuring robustness in handling trust andtransactions under C4GT(Code For Gov Tech)",
+    image:Cord,
+    tags: ["RUST"],
+    category: "",
+    github: "https://github.com/dhiway/cord",
+    webapp: "https://github.com/dhiway/cord",
+    member: [
+      {
+        name: "Jiya Gupta",
+        img: "https://avatars.githubusercontent.com/u/140608790?v=4",
+        linkedin: Bio.linkedin,
+        github: Bio.github,
+      },
+    ],
+  },
+
+  ,
+  
+  {
+    id: 2,
+    title: "Flare0x",
+    description:
+      'Developed a Telegram bot on Arbitrum & Rabble to enhance user focus andself-discipline. The bot encourages users to channel their energy into a metaphorical flame, rewarding sustained focus with minted tokens called "FLARES." If users lose focus, FLARES are deducted, creating agamified experience that visually represents progress and promotes mindfulness.',
+    image:Flare,
+    tags: ["Telegram Mini Apps","Arbitrum", "Rabble"],
+    category: "",
+    github: "https://github.com/JiyaGupta-cs/Flare0x",
+    webapp: "https://web.telegram.org/k/#@Flare0x_Bot",
+    member: [
+      {
+        name: "Jiya Gupta",
+        img: "https://avatars.githubusercontent.com/u/140608790?v=4",
+        linkedin: Bio.linkedin,
+        github: Bio.github,
+      },
+    ],
+  },
+
+
+  
+  ,
+  
+  {
+    id: 3,
+    title: "FOSSCU_Tomodachi",
+    description:
+      'Built a Discord bot for FOSSCU-K with GitHub and Airtable integration, providing seamless access to organizational data—members, open issues, pull requests, and XP tracking—enhancing team productivity and community engagement.',
+    image:Discord_bot,
+    tags: ["Discord.js"],
+    category: "",
+    github: "https://github.com/FOSS-Community/fosscu-discord-bot",
+    webapp: "https://github.com/FOSS-Community/fosscu-discord-bot",
+    member: [
+      {
+        name: "Jiya Gupta",
+        img: "https://avatars.githubusercontent.com/u/140608790?v=4",
+        linkedin: Bio.linkedin,
+        github: Bio.github,
+      },
+    ],
+  },
+  {
+    id: 4,
     title: "NIET Education",
     description:
       "Freelancing Project - An interactive student LMS offering lectures and exams to enhance learning.",
@@ -192,8 +266,50 @@ export const projects = [
         github: Bio.github,
       },
     ],
-  },{
-    id: 1,
+  },
+  
+  {
+    id: 5,
+    title: "DigiDukaan",
+    description:
+      "Built using React for the front end, Node.js for the back end, and Prisma with PostgreSQL for data management. Integrated Google OAuth for secure authentication and a dynamic mailer system for order notifications",
+    image: DigiDukaan,
+    tags: ["Node.js", "Prisma","ReactJS","GoogleOAuth"],
+    category: "web app",
+    github: "https://github.com/JiyaGupta-cs/ecommerce-frontend/",
+    webapp: "https://github.com/JiyaGupta-cs/ecommerce-frontend/",
+    member: [
+      {
+        name: "Jiya Gupta",
+        img: "https://avatars.githubusercontent.com/u/140608790?v=4",
+        linkedin: Bio.linkedin,
+        github: Bio.github,
+      },
+    ],
+  },
+  
+  {
+    id: 6,
+    title: "react-fire-utils",
+    description:
+      "react-fire-utils is an NPM package provides a simple way to integrate firebase authentication in your app. After installing the package and configuring Firebase, it automatically creates a login/signup . You don't need to manually set up , It handles everything for you.",
+    image: ReactFireUtils,
+    tags: ["NPM Package","NodeJS"],
+    category: "web app",
+    github: "https://github.com/JiyaGupta-cs/technoverse-frontend",
+    webapp: "https://technoverse-kiet.vercel.app/",
+    member: [
+      {
+        name: "Jiya Gupta",
+        img: "https://avatars.githubusercontent.com/u/140608790?v=4",
+        linkedin: Bio.linkedin,
+        github: Bio.github,
+      },
+    ],
+  },
+
+  {
+    id: 7,
     title: "TechnoVerse",
     description:
       "Designed and Developed the Frontend of the Website for the college club.",
@@ -211,64 +327,6 @@ export const projects = [
       },
     ],
   },
-  {
-    id: 2,
-    title: "Hackers MeetUp",
-    description:
-      "Designed and Developed the Frontend of the Website for the college club, Technocrats.",
-    image: HackersImg,
-    tags: ["React Js"],
-    category: "web app",
-    github: "https://github.com/JiyaGupta-cs/hackers",
-    webapp: "https://thm-kiet.tech/",
-    member: [
-      {
-        name: "Jiya Gupta",
-        img: "https://avatars.githubusercontent.com/u/140608790?v=4",
-        linkedin: Bio.linkedin,
-        github: Bio.github,
-      },
-    ],
-  },
-   {
-    id: 3,
-    title: "Capabilix",
-    description:
-      "It is a social media platform with a focus on fostering a supportive community for disabled individuals that can provide a space to share their experiences, support one another, promote events, grab a job, and become self-dependent.",
-    image: CapabilixImg,
-    tags: ["React Js", "Firebase", "Google Calendar", "Twitter API"],
-    category: "web app",
-    github: "https://github.com/JiyaGupta-cs/mytwit",
-    webapp: "https://mytwit.vercel.app/",
-    member: [
-      {
-        name: "Jiya Gupta",
-        img: "https://avatars.githubusercontent.com/u/140608790?v=4",
-        linkedin: Bio.linkedin,
-        github: Bio.github,
-      },
-    ],
-  },
-  {
-    id: 4,
-    title: "ShopNex",
-    description:
-      "Shopnex is your one-stop destination for fashionable clothing for the entire family. Discover a wide selection of men's, women's, and kids' apparel, ensuring that everyone can find the perfect style and fit. Shop with confidence and convenience at Shopnex for all your clothing needs.",
-    image:ShopNexImg,
-    tags: ["HTML", "CSS","JavaScript","React JS"],
-    category: "machine learning",
-    github: "https://github.com/JiyaGupta-cs/ShopNex",
-    webapp: "https://shopnex.vercel.app/",
-    member: [
-      {
-        name: "Jiya Gupta",
-        img: "https://avatars.githubusercontent.com/u/140608790?v=4",
-        linkedin: Bio.linkedin,
-        github: Bio.github,
-      },
-    ],
-  },
-  
 ];
 
 export const TimeLineData = [
