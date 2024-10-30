@@ -79,6 +79,60 @@ export const skills = [
 ];
 
 export const achievements = [
+
+  {
+    id: 0,
+    img: "https://media.licdn.com/dms/image/v2/C4D0BAQGn2b2LkF3pyQ/company-logo_200_200/company-logo_200_200/0/1652419798971/code_for_govtech_logo?e=2147483647&v=beta&t=mMsq7_1PBi1cqwXNVCMfbp19s3RQ7CYQKkAAq4urYX4",
+    role: "Augtoberfest - Code For GovTech (C4GT)",
+    company: "Samagra",
+    date: "October 2023",
+    // desc: "Contributed to Formbricks, a real-world product, addressing and resolving issues in a live Github environment. Contributed to the enhancement of multiple open-source projects.", 
+    doc:"https://media.licdn.com/dms/image/v2/D5622AQHZ3FNyRXW0Wg/feedshare-shrink_800/feedshare-shrink_800/0/1726847570084?e=1733356800&v=beta&t=mttFhlC98L795G6Dh8kvK4nUl2sz5L70jfCaSpFXo04"
+  },
+  {
+    id: 1,
+    img: "https://assets.spaceappschallenge.org/media/images/For_GO_Team_Create_your_own_Local_.2e16d0ba.fill-674x450_Vhaq0Cl.jpg",
+    role: "NASA SPACE APPS CHALLENGE",
+    company: "NASA",
+    date: "September 2024",
+    desc: "Regional Winner #1",
+    doc: "https://pbs.twimg.com/media/GZO69ZSX0AA_Iwn?format=jpg&name=small",
+  },
+  
+  {
+    id: 2,
+    img: "https://pbs.twimg.com/profile_images/1734099293676396544/jIdC7NYM_400x400.jpg",
+    role: "Co-Learning Camp",
+    company: "HackQuest",
+    date: "January-February 2024",
+    desc: "Winner #1 in Solana Track",  
+    doc:"https://pbs.twimg.com/media/GZ9cALwXsAAzQZI?format=jpg&name=small"  
+  },{
+    id: 3,
+    img: "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/662517c31ab3c_bvp-logo.png?d=200x200",
+    role: "Reinventing Youth Communication Hack",
+    company: "Haryana Police and Haryana State Narcotics Control Bureau (HSNCB)",
+    date: "May 2024",
+    desc: "Among Top 10 national teams",  
+    // doc:"https://media.licdn.com/dms/image/D5622AQHREjy6Wc4j4g/feedshare-shrink_800/0/1714591275968?e=1719446400&v=beta&t=V8N9IrdwBnmg0YIftJyXBypfkvPJaoVSJX93lUu3iKc"  
+  },
+
+
+  {
+    id: 2,
+    img: "https://media.licdn.com/dms/image/v2/D4E12AQFxMoJkWy-aKg/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1725533114805?e=2147483647&v=beta&t=n3oPsphJjPG-YAm8eDKz6Y0eopbDxCZ0x5veWLGf75Y",
+    role: "Smart India Hackathon",
+    company: "Ministry of Education's Innovation Cell",
+    date: "January-February 2024",
+    desc: "Qualified Smart India Hackathon (SIH) at the college level",  
+    // doc:"https://pbs.twimg.com/media/GZ9cALwXsAAzQZI?format=jpg&name=small"  
+  },
+
+
+
+
+
+
   {
     id: 0,
     img: "https://www.hacksquad.dev/favicon/favicon-256x256.png",
@@ -86,7 +140,7 @@ export const achievements = [
     company: "A month-long Open-Source Contest",
     date: "October 2023",
     desc: "Winner of HackSquad among 2000+ teams. Submitted impactful Pull Requests to diverse     GitHub projects, showcasing proficiency in collaborative coding and issue resolution.",
-    doc: "https://media.licdn.com/dms/image/D5622AQFA6WryZhQo5Q/feedshare-shrink_800/0/1706387125513?e=1719446400&v=beta&t=oTonUIEwUKims0GVSB72hq5T9f8yefDC5Un-TfHwxV8",
+    doc: "https://pbs.twimg.com/media/GE4DTofaQAEE8wB?format=jpg&name=small",
   },
   {
     id: 1,
@@ -103,7 +157,7 @@ export const achievements = [
     company: "Innogeeks",
     date: "January-February 2024",
     desc: "Secured 3rd position among 500+ registrations. Demonstrated collaborative coding    expertise through impactful contributions to GitHub projects.",  
-    doc:"https://media.licdn.com/dms/image/D4E22AQFMLO4hMSFkqQ/feedshare-shrink_2048_1536/0/1708527007474?e=1719446400&v=beta&t=dBQbt7OCknJ14v98h6B2ENZ83I9fJelnPiJ0xRyrDCY"  
+    doc:"https://pbs.twimg.com/media/GG6hdXhW0AA5WmH?format=jpg&name=small"  
   },{
     id: 3,
     img: "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/662517c31ab3c_bvp-logo.png?d=200x200",
@@ -111,7 +165,7 @@ export const achievements = [
     company: "BVCOE, Delhi",
     date: "May 2024",
     desc: "First Runner Up at the  Mind Maelstrom hackathon held at Bharati Vidyapeeth's College of Engineering , New Delhi !",  
-    doc:"https://media.licdn.com/dms/image/D5622AQHREjy6Wc4j4g/feedshare-shrink_800/0/1714591275968?e=1719446400&v=beta&t=V8N9IrdwBnmg0YIftJyXBypfkvPJaoVSJX93lUu3iKc"  
+    doc:"https://media.licdn.com/dms/image/v2/D5622AQHREjy6Wc4j4g/feedshare-shrink_800/feedshare-shrink_800/0/1714591275968?e=1733356800&v=beta&t=dve76iqvuaEF3dYXaBpvFX5uqV4jrN3Q6__J2httSL8"  
   },
  
 ];
