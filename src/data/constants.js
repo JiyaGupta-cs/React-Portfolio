@@ -1,21 +1,16 @@
-import ShopNexImg from '../images/shopnex.png';
-import NietImg from '../images/Niet.png';
-import TechnoVerseImg from '../images/TechnoVerse.png';
-import HackersImg from '../images/Hackers.png';
-
-
-import Flare from '../images/flare.jpg';
-import DigiDukaan from '../images/digidukaan.png';
-import Discord_bot from '../images/discord_bot.jpg';
-import Cord from '../images/cord.png';
-import ReactFireUtils from '../images/react-fire-utils.png';
+import NietImg from "../images/Niet.png";
+import Flare from "../images/flare.jpg";
+import DigiDukaan from "../images/digidukaan.png";
+import Discord_bot from "../images/discord_bot.jpg";
+import Cord from "../images/cord.png";
+import ReactFireUtils from "../images/react-fire-utils.png";
+import WiseMe from '../images/wiseme.png';
+import Cyromics from '../images/cyromics.png';
+import CyroStudios from '../images/cyrostudios.png';
 
 export const Bio = {
   name: "Jiya Gupta",
-  roles: [
-    "Front End Developer",
-    "Programmer",
-  ],
+  roles: ["Front End Developer", "Programmer"],
   description:
     "I am an Open Source Enthusiast and Agile Learner, always eager to take on new challenges. Passionate about contributing to innovative collaborative projects, I actively engage in the open-source community. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/JiyaGupta-cs",
@@ -66,24 +61,13 @@ export const skills = [
       },
       {
         name: "Git",
-        image:
-          "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
+        image: "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
       },
       {
         name: "GitHub",
         image:
           "https://static-00.iconduck.com/assets.00/github-icon-2048x1998-3j08tfre.png",
       },
-
-
-
-
-
-
-
-
-
-
 
       {
         name: "Wordpress",
@@ -94,81 +78,86 @@ export const skills = [
         name: "MongoDB",
         image:
           "https://w7.pngwing.com/pngs/367/959/png-transparent-mongodb-icon-hd-logo-thumbnail.png",
-      }, {
+      },
+      {
         name: "Express",
         image:
           "https://w7.pngwing.com/pngs/846/87/png-transparent-mean-solution-stack-express-js-node-js-javascript-github-text-trademark-logo.png",
-      }, {
+      },
+      {
         name: "NodeJS",
         image:
           "https://cdn.freebiesupply.com/logos/large/2x/nodejs-1-logo-png-transparent.png",
-      }, {
-        name: "Prisma",
-        image:
-          "https://prismalens.vercel.app/header/logo-white.svg",
-      }, {
-        name: "Postgres",
-        image:
-          "https://www.postgresql.org/media/img/about/press/elephant.png",
-      }, {
-        name: "Hono",
-        image:
-          "https://hono.dev/images/logo-small.png",
       },
-
+      {
+        name: "Prisma",
+        image: "https://prismalens.vercel.app/header/logo-white.svg",
+      },
+      {
+        name: "Postgres",
+        image: "https://www.postgresql.org/media/img/about/press/elephant.png",
+      },
+      {
+        name: "Hono",
+        image: "https://hono.dev/images/logo-small.png",
+      },
 
       {
         name: "CloudFlare Workers",
         image:
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE5ZCvV09_YApK_o0dTdrEJgOFhgUn0PsHPQ&s",
-      },{
+      },
+      {
         name: "Next JS",
         image:
           "https://images.ctfassets.net/23aumh6u8s0i/6pjUKboBuFLvCKkE3esaFA/5f2101d6d2add5c615db5e98a553fc44/nextjs.jpeg",
-      },{
+      },
+      {
         name: "Docker",
         image:
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRmg0SrXaYcnUt5NFG_V5fUN3FH8hOJyszTxQ&s",
-      },{
+      },
+      {
         name: "Figma",
         image:
           "https://w7.pngwing.com/pngs/684/413/png-transparent-figma-logo-thumbnail-tech-companies-thumbnail.png",
-      },{
+      },
+      {
         name: "Solidity",
         image:
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtouJk0vf78F_3wCbKazeTEhj-K9EO6t6MVg&s",
-      },{
+      },
+      {
         name: "Rust",
         image:
           "https://procoders.tech/wp-content/webp-express/webp-images/doc-root/wp-content/uploads/2023/03/A_Saving-Costs_Guide_on_Hiring_Rust_Developers-820x574.png.webp",
-      },{
+      },
+      {
         name: "Anchor",
-        image:
-          "https://www.anchor-lang.com/logo.png",
+        image: "https://www.anchor-lang.com/logo.png",
       },
       {
         name: "Ethereum",
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Ethereum_logo_2014.svg/1200px-Ethereum_logo_2014.svg.png",
-      },{
+      },
+      {
         name: "Solana",
-        image:
-          "https://cryptologos.cc/logos/solana-sol-logo.png",
+        image: "https://cryptologos.cc/logos/solana-sol-logo.png",
       },
     ],
-  }
+  },
 ];
 
 export const achievements = [
-
   {
     id: 0,
     img: "https://media.licdn.com/dms/image/v2/C4D0BAQGn2b2LkF3pyQ/company-logo_200_200/company-logo_200_200/0/1652419798971/code_for_govtech_logo?e=2147483647&v=beta&t=mMsq7_1PBi1cqwXNVCMfbp19s3RQ7CYQKkAAq4urYX4",
     role: "Augtoberfest - Code For GovTech (C4GT)",
     company: "Samagra",
     date: "October 2023",
-    // desc: "Contributed to Formbricks, a real-world product, addressing and resolving issues in a live Github environment. Contributed to the enhancement of multiple open-source projects.", 
-    doc: "https://media.licdn.com/dms/image/v2/D5622AQHZ3FNyRXW0Wg/feedshare-shrink_800/feedshare-shrink_800/0/1726847570084?e=1733356800&v=beta&t=mttFhlC98L795G6Dh8kvK4nUl2sz5L70jfCaSpFXo04"
+    // desc: "Contributed to Formbricks, a real-world product, addressing and resolving issues in a live Github environment. Contributed to the enhancement of multiple open-source projects.",
+    doc: "https://media.licdn.com/dms/image/v2/D5622AQHZ3FNyRXW0Wg/feedshare-shrink_800/feedshare-shrink_800/0/1726847570084?e=1733356800&v=beta&t=mttFhlC98L795G6Dh8kvK4nUl2sz5L70jfCaSpFXo04",
   },
   {
     id: 1,
@@ -187,17 +176,18 @@ export const achievements = [
     company: "HackQuest",
     date: "January-February 2024",
     desc: "Winner #1 in Solana Track",
-    doc: "https://pbs.twimg.com/media/GZ9cALwXsAAzQZI?format=jpg&name=small"
-  }, {
+    doc: "https://pbs.twimg.com/media/GZ9cALwXsAAzQZI?format=jpg&name=small",
+  },
+  {
     id: 3,
     img: "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/662517c31ab3c_bvp-logo.png?d=200x200",
     role: "Reinventing Youth Communication Hack",
-    company: "Haryana Police and Haryana State Narcotics Control Bureau (HSNCB)",
+    company:
+      "Haryana Police and Haryana State Narcotics Control Bureau (HSNCB)",
     date: "May 2024",
     desc: "Among Top 10 national teams",
-    // doc:"https://media.licdn.com/dms/image/D5622AQHREjy6Wc4j4g/feedshare-shrink_800/0/1714591275968?e=1719446400&v=beta&t=V8N9IrdwBnmg0YIftJyXBypfkvPJaoVSJX93lUu3iKc"  
+    // doc:"https://media.licdn.com/dms/image/D5622AQHREjy6Wc4j4g/feedshare-shrink_800/0/1714591275968?e=1719446400&v=beta&t=V8N9IrdwBnmg0YIftJyXBypfkvPJaoVSJX93lUu3iKc"
   },
-
 
   {
     id: 2,
@@ -206,13 +196,8 @@ export const achievements = [
     company: "Ministry of Education's Innovation Cell",
     date: "January-February 2024",
     desc: "Qualified Smart India Hackathon (SIH) at the college level",
-    // doc:"https://pbs.twimg.com/media/GZ9cALwXsAAzQZI?format=jpg&name=small"  
+    // doc:"https://pbs.twimg.com/media/GZ9cALwXsAAzQZI?format=jpg&name=small"
   },
-
-
-
-
-
 
   {
     id: 0,
@@ -238,27 +223,42 @@ export const achievements = [
     company: "Innogeeks",
     date: "January-February 2024",
     desc: "Secured 3rd position among 500+ registrations. Demonstrated collaborative coding    expertise through impactful contributions to GitHub projects.",
-    doc: "https://pbs.twimg.com/media/GG6hdXhW0AA5WmH?format=jpg&name=small"
-  }, {
+    doc: "https://pbs.twimg.com/media/GG6hdXhW0AA5WmH?format=jpg&name=small",
+  },
+  {
     id: 3,
     img: "https://d8it4huxumps7.cloudfront.net/uploads/images/150x150/662517c31ab3c_bvp-logo.png?d=200x200",
     role: "Mind Maelstrom",
     company: "BVCOE, Delhi",
     date: "May 2024",
     desc: "First Runner Up at the  Mind Maelstrom hackathon held at Bharati Vidyapeeth's College of Engineering , New Delhi !",
-    doc: "https://media.licdn.com/dms/image/v2/D5622AQHREjy6Wc4j4g/feedshare-shrink_800/feedshare-shrink_800/0/1714591275968?e=1733356800&v=beta&t=dve76iqvuaEF3dYXaBpvFX5uqV4jrN3Q6__J2httSL8"
+    doc: "https://media.licdn.com/dms/image/v2/D5622AQHREjy6Wc4j4g/feedshare-shrink_800/feedshare-shrink_800/0/1714591275968?e=1733356800&v=beta&t=dve76iqvuaEF3dYXaBpvFX5uqV4jrN3Q6__J2httSL8",
   },
-
 ];
 export const experiences = [
-
+  {
+    id: -1,
+    img: "https://www.cyrostudios.com/_next/image?url=%2Fassets%2Flogo.png&w=96&q=75",
+    role: "Fullstack Web Developer",
+    company: "CyroStudios",
+    date: "November 2024 - Till Date",
+    desc: "A CreativeStudio company crafting fun, engaging comic style visuals to showcase project features in a dynamic way",
+  },
+  {
+    id: 0,
+    img: "https://tbi-kiet.in/wp-content/uploads/2021/11/download-2.png",
+    role: "Frontend Web Developer",
+    company: "TBI-KIET(Technology Business Incubator)",
+    date: "May 2024 - July 2024 (3 months)",
+    desc: "VFGA - Web based dashboards for panchayat and govt for virtual asset management",
+  },
   {
     id: 1,
     img: "https://fosscu.org/fosscu.png",
     role: "Member",
     company: "FOSSCU",
     date: "December 2023 - Till Date",
-    desc: "An active memberoftheFOSSCUcontributing to the community. Maintaining FOSSCU’s website. Hosting events like Say Hello to Linux, Getting Started With Git, etc. indulging the mass college students into the world of open-source."
+    desc: "An active memberoftheFOSSCUcontributing to the community. Maintaining FOSSCU’s website. Hosting events like Say Hello to Linux, Getting Started With Git, etc. indulging the mass college students into the world of open-source.",
   },
   {
     id: 2,
@@ -266,7 +266,7 @@ export const experiences = [
     role: "Advocate Evangelist",
     company: "HackQuest",
     date: "October 2024 - Till Date",
-    desc: "As anEvangelist, have the opportunity to engage deeply with the community, contribute to various impactful projects and represent HackQuest and host events"
+    desc: "As anEvangelist, have the opportunity to engage deeply with the community, contribute to various impactful projects and represent HackQuest and host events",
   },
   {
     id: 2,
@@ -274,7 +274,7 @@ export const experiences = [
     role: "Coordinator",
     company: "Innogeeks",
     date: "September 2024 - Till Date",
-    desc: ""
+    desc: "",
   },
   {
     id: 3,
@@ -283,7 +283,7 @@ export const experiences = [
     company: "JGEC",
     date: "January-February 2024",
     desc: "Advanced from a mentee role to that of a mentor, actively participated in the review and merging of PRs, contributing significantly to the growth and development of the projects.",
-    doc: "https://media.licdn.com/dms/image/D5622AQGgIBNDEYP7LQ/feedshare-shrink_800/0/1708345898031?e=1719446400&v=beta&t=P--5vOJ006fcksgdd_I70KnRZGcg6ueHj71B2OKbUMw"
+    doc: "https://media.licdn.com/dms/image/D5622AQGgIBNDEYP7LQ/feedshare-shrink_800/0/1708345898031?e=1719446400&v=beta&t=P--5vOJ006fcksgdd_I70KnRZGcg6ueHj71B2OKbUMw",
   },
   {
     id: 4,
@@ -304,7 +304,6 @@ export const education = [
     degree: "Bachelor of Technology - BTech, Computer Science",
     date: "Jul 2023 - Jul 2027",
     desc: "I am currently pursuing a Bachelor's degree in Computer Science at KIET Group Of Instituitions, Ghaziabad. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
-
   },
   {
     id: 1,
@@ -327,7 +326,62 @@ export const education = [
 ];
 
 export const projects = [
-
+  {
+    id: 0,
+    title: "WiseMe",
+    description:
+      "An AI-powered collaborative planner that provides a personalized coding roadmap, aligns with earning goals, adapts to schedules, and connects developers for community support using NEXT.JS",
+    image: WiseMe,
+    tags: ["NEXT JS"],
+    category: "",
+    github: "https://github.com/WiseMeOrg/WiseMe.me",
+    webapp: "https://wiseme.me/",
+    member: [
+      {
+        name: "Jiya Gupta",
+        img: "https://avatars.githubusercontent.com/u/140608790?v=4",
+        linkedin: Bio.linkedin,
+        github: Bio.github,
+      },
+    ],
+  },
+  {
+    id: 1,
+    title: "CyroStudios",
+    description:
+      "A CreativeStudio company crafting fun, engaging comic style visuals to showcase project features in a dynamic way. This is built during my internship",
+    image: CyroStudios,
+    tags: ["NEXT JS"],
+    category: "",
+    github: "https://www.cyrostudios.com/",
+    webapp: "https://www.cyrostudios.com/",
+    member: [
+      {
+        name: "Jiya Gupta",
+        img: "https://avatars.githubusercontent.com/u/140608790?v=4",
+        linkedin: Bio.linkedin,
+        github: Bio.github,
+      },
+    ],
+  },
+  {
+    id: 1,
+    title: "Cyromics",
+    description: "An on-chain comic reader. This is built during my internship",
+    image: Cyromics,
+    tags: ["NEXT JS", "Xion"],
+    category: "",
+    github: "https://www.cyromics.com",
+    webapp: "https://www.cyromics.com",
+    member: [
+      {
+        name: "Jiya Gupta",
+        img: "https://avatars.githubusercontent.com/u/140608790?v=4",
+        linkedin: Bio.linkedin,
+        github: Bio.github,
+      },
+    ],
+  },
 
   {
     id: 1,
@@ -350,7 +404,6 @@ export const projects = [
   },
 
   ,
-
   {
     id: 2,
     title: "Flare0x",
@@ -371,15 +424,12 @@ export const projects = [
     ],
   },
 
-
-
   ,
-
   {
     id: 3,
     title: "FOSSCU_Tomodachi",
     description:
-      'Built a Discord bot for FOSSCU-K with GitHub and Airtable integration, providing seamless access to organizational data—members, open issues, pull requests, and XP tracking—enhancing team productivity and community engagement.',
+      "Built a Discord bot for FOSSCU-K with GitHub and Airtable integration, providing seamless access to organizational data—members, open issues, pull requests, and XP tracking—enhancing team productivity and community engagement.",
     image: Discord_bot,
     tags: ["Discord.js"],
     category: "",
@@ -440,26 +490,6 @@ export const projects = [
       "react-fire-utils is an NPM package provides a simple way to integrate firebase authentication in your app. After installing the package and configuring Firebase, it automatically creates a login/signup . You don't need to manually set up , It handles everything for you.",
     image: ReactFireUtils,
     tags: ["NPM Package", "NodeJS"],
-    category: "web app",
-    github: "https://github.com/JiyaGupta-cs/technoverse-frontend",
-    webapp: "https://technoverse-kiet.vercel.app/",
-    member: [
-      {
-        name: "Jiya Gupta",
-        img: "https://avatars.githubusercontent.com/u/140608790?v=4",
-        linkedin: Bio.linkedin,
-        github: Bio.github,
-      },
-    ],
-  },
-
-  {
-    id: 7,
-    title: "TechnoVerse",
-    description:
-      "Designed and Developed the Frontend of the Website for the college club.",
-    image: TechnoVerseImg,
-    tags: ["React Js"],
     category: "web app",
     github: "https://github.com/JiyaGupta-cs/technoverse-frontend",
     webapp: "https://technoverse-kiet.vercel.app/",
