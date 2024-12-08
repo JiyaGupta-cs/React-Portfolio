@@ -7,10 +7,11 @@ import ReactFireUtils from "../images/react-fire-utils.png";
 import WiseMe from '../images/wiseme.png';
 import Cyromics from '../images/cyromics.png';
 import CyroStudios from '../images/cyrostudios.png';
+import WhyXion from '../images/WhyXion.png';
 
 export const Bio = {
   name: "Jiya Gupta",
-  roles: ["Front End Developer", "Programmer"],
+  roles: ["Fullstack Web Developer"],
   description:
     "I am an Open Source Enthusiast and Agile Learner, always eager to take on new challenges. Passionate about contributing to innovative collaborative projects, I actively engage in the open-source community. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/JiyaGupta-cs",
@@ -87,7 +88,7 @@ export const skills = [
       {
         name: "NodeJS",
         image:
-          "https://cdn.freebiesupply.com/logos/large/2x/nodejs-1-logo-png-transparent.png",
+          "https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png",
       },
       {
         name: "Prisma",
@@ -371,8 +372,27 @@ export const projects = [
     image: Cyromics,
     tags: ["NEXT JS", "Xion"],
     category: "",
-    github: "https://www.cyromics.com",
-    webapp: "https://www.cyromics.com",
+    github: "https://www.cyromics.com/marketplace",
+    webapp: "https://www.cyromics.com/marketplace",
+    member: [
+      {
+        name: "Jiya Gupta",
+        img: "https://avatars.githubusercontent.com/u/140608790?v=4",
+        linkedin: Bio.linkedin,
+        github: Bio.github,
+      },
+    ],
+  },
+  
+  {
+    id: 1,
+    title: "WhyXion",
+    description: "Onboarding people onto the Xion",
+    image: WhyXion,
+    tags: ["NEXT JS", "Xion"],
+    category: "",
+    github: "https://www.whyxion.com",
+    webapp: "https://www.whyxion.com",
     member: [
       {
         name: "Jiya Gupta",
